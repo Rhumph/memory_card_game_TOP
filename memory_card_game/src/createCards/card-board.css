@@ -1,0 +1,31 @@
+.card-board{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 0;
+    max-width: 800px;
+    padding: 20px;
+}
+
+.streak-counter{ 
+    font-size: 1.5rem;
+    background-color: rgb(181, 181, 181);
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.full-component{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: blueviolet;
+}
+
+.card{ 
+    background-color: rgb(104, 104, 104);
+    padding: 20px;
+    font-size: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+}
