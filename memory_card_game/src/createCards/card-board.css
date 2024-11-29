@@ -3,29 +3,41 @@
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
     margin: 0;
-    max-width: 800px;
+    max-width: 100%;
     padding: 20px;
 }
 
-.streak-counter{ 
-    font-size: 1.5rem;
-    background-color: rgb(181, 181, 181);
-    padding: 10px;
-    margin-bottom: 10px;
+.score-text{ 
+    font-size: 1rem;
+    color: rgb(181, 181, 181);
+    margin-right: 20px;
 }
 
 .full-component{ 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-between;
-    align-items: center;
+    align-items: start;
     background-color: blueviolet;
 }
 
 .card{ 
     background-color: rgb(104, 104, 104);
-    padding: 20px;
+    /* padding: 10px; */
     font-size: 1.5rem;
     text-align: center;
     cursor: pointer;
+}
+
+.card img{ 
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.score-counters{ 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
 }

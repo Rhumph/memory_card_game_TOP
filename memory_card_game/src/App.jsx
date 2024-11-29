@@ -1,7 +1,7 @@
 // import { useState } from 'react'
 import './App.css'
 import './createCards/create_cards.jsx'
-import CreateCards from './createCards/create_cards.jsx'
+import  GifCardBoard from'./gifCardBoard/gifCardBoard.jsx'
 
 function App() {
 
@@ -10,7 +10,7 @@ function App() {
       <div className='info-bar'>
         <h1 className='game-title'>R.Humph's Memory Card Game</h1>
         <div className='scoreboard'>
-          <CreateCards />
+          <GifCardBoard />
         </div>
       </div>
       <div className='gamebaord'></div>
